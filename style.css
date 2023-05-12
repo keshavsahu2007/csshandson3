@@ -1,0 +1,209 @@
+*{
+    padding: 0px;
+    margin: 0PX;
+}
+body{
+    background-color: beige;
+}
+.header{
+    height: 100px;
+    width: 300px;
+    line-height: 30px;
+    border: 5px solid red;
+    border-radius: 8px;
+    color: blueviolet;
+    background-color: white;
+    box-shadow: 7px 7px 0px;
+    position: relative;
+    left: 500px;
+    text-align: center;
+    font-style: italic;
+    font-weight:bolder;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-bottom: 7.5px;
+    margin-top: 3px;
+}
+.hr{
+    margin-bottom: 5px;
+    margin-left: 15px;
+    margin-right: 20pxx;
+
+}
+
+.flexcontainer{
+    border: 6px solid green;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.flex1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.flex1item1{
+    height: 200px;
+    width: 200px;
+    border: 5px solid red;
+    border-radius: 8px;
+    color: blueviolet;
+    background-color: white;
+    box-shadow: 7px 7px 0px;
+    text-align: center;
+    line-height: 40px;
+    font-weight:bolder;
+    font-size: 20px;
+    padding-top: 10px;
+    text-shadow:0px 0px 3px blueviolet;
+
+
+}
+.flex1item2{
+    width: 200px;
+    border: 5px solid red;
+    border-radius: 8px;
+    color: blueviolet;
+    background-color: white;
+    box-shadow: 7px 7px 0px;
+    margin-right: 40px;
+}
+img{
+    width: 170px;
+    height: 150px;
+    padding-left:  15px;
+    padding-top: 30px;
+    
+}
+.flex2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
+.flex2item1{
+    height: 200px;
+    width: 200px;
+    border: 5px solid red;
+    border-radius: 8px;
+    color: blueviolet;
+    background-color: white;
+    box-shadow: 7px 7px 0px;
+    text-align: center;
+    font-weight:bolder;
+    font-size: 20px;
+    padding-top: 5px ;
+    padding-bottom: 20px;
+    text-shadow:0px 0px 3px blueviolet;
+}
+.flex2item2{
+    height: 220px;
+    width: 220px;
+    border: 5px solid red;
+    border-radius: 8px;
+    color: blueviolet;
+    background-color: white;
+    box-shadow: 7px 7px 0px;
+    text-align: center;
+    text-shadow:0px 0px 3px blueviolet;
+    margin-right: 40px;
+}
+h2{
+    font-size: 24px;
+    font-weight: bolder;
+}
+input[type="number"]{
+    width: 90px;
+}
+input[type="button"]{
+    border-radius: 20px;
+    background-color: bisque;
+    width: 90px;
+}
+.flexcontainer2{
+    border: 5px solid violet;
+    border-radius: 5px;
+    background-color: blueviolet;
+    width: 630px;
+    position: relative;
+    left: 350px;
+    text-align: center;
+    padding: 20px 0px 15px 0px;
+    /* padding-top: 20px; */
+    margin-top: 20px;
+
+}
+.flex3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.flexfruit{
+    height: 280px;
+    width: 300px;
+    text-align: center;
+    line-height: 32px;
+    border: 2px solid slategray;
+    background-color:yellowgreen;
+    color: black;
+    font-style: italic;
+
+}
+.flexvegetables{
+    height: 280px;
+    width: 300px;
+    text-align: center;
+    line-height: 32px;
+    border: 2px solid slategray;
+    background-color:yellowgreen;
+    color: black;
+    font-style: italic;
+}
+h2{
+    padding: 20px 0px;
+}
+p{
+    padding-top: 10px;
+}.flexothers{
+    height: 250px;
+    width: 625px;
+    text-align: center;
+    line-height: 32px;
+    border: 2px solid slategray;
+    background-color: yellowgreen ;
+    color: black;
+    font-style: italic;
+    margin-left: 6.5px;
+    margin-top: 10px;
+}
+.fixed{
+    height: 80px;
+    width: 440px;
+    position: fixed;
+    top: 500px;
+    left: 415px;
+    display: flex;
+    border: 5px solid red;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 7px 7px 0px blueviolet;
+    background-color:lightgreen;
+    color:blueviolet;
+    font-style: italic;
+
+}
+.bold{
+padding-left: 20px;
+/* padding: 10px; */
+}
+.bold2{
+    text-align: center;
+}
+.light{
+    padding-left: 40px;
+    font-size: 19px;
+    padding-top: 15px;
+
+}
